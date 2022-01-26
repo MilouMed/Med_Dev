@@ -1,0 +1,387 @@
+/***                                                                              INCENTIVE HOUSE  
+                                                                                                2020-11-12
+                                                                                                          MILOU MOHAMED  
+
+***/
+
+body, center { 
+  /*     background-color: #f9f9f9; */
+    }
+    
+    #div_img_impprte_smol {
+      border: 0px solid #fffefead;
+      margin: 0px;
+      padding: 3px;
+      display: inline-block;
+      box-shadow: 0px 0px 50px #0c0c0c;
+    }
+    
+    #div_img_impprte_smol:hover, #div_img_impprte_big:hover {
+      box-shadow: 0px 0px 50px #f1e5e5;
+    }
+    
+    
+    
+    #img_img_impprte_smol {
+      margin: 0px;
+      margin-bottom: inherit;
+      width: 460px;
+      height: 360px;
+      transition: transform 0.5s;
+    }
+    
+    #ul_vid, #ul_img {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #img_img_impprte_smol:hover {
+      transform: scale(1.2, 1.2);
+    }
+    
+    #li_img {
+      overflow: hidden;
+    }
+    .container_glry
+    {
+      margin-top:50px;
+    }
+    
+    
+    .Btn_More
+    {
+      margin:15px auto 30px auto;
+    }
+    
+    
+    
+    /***********Responcive Med I H ******************************/
+    @media (min-width: 981px) and (max-width: 1900px) {
+    
+      #div_img_impprte_smol {
+        border: 2px solid #ffffff;
+        margin: 1px;
+        padding: 5px;
+        display: inline-block;
+      }
+      #img_img_impprte_smol {
+        margin-bottom: 0px;
+        width: 290px;
+        height: 200px;
+      }
+      .container_srv {
+        margin-top: 150px;
+      }
+    }
+    
+    @media (max-width: 979px) {
+      #div_img_impprte_big, #div_img_impprte_smol {
+        border: 2px solid #ffffff;
+        margin: 5px;
+        padding: 3px;
+        display: inline-block;
+      }
+      #img_img_impprte_big, #img_img_impprte_smol {
+        margin-bottom: 0px;
+        width: 301px;
+        height: 190px;
+      }
+      .ligne_red::after, .ligne_red::before {
+        width: 30%;
+      }
+      .ligne_red {
+        width: 100%;
+        position: relative;
+      }
+      .card-title {
+        font: 20px/30px 'Raleway', Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        margin: 0;
+      }
+      .card-text {
+        font-size: 16px;
+        margin: 0px auto;
+      }
+      * {
+  /*       background-color: #8c97c3; */
+      }
+      .container_srv {
+        margin-top: 210px;
+      }
+    }
+    
+    @media (max-width: 769px) {
+        
+      .container_srv {
+        margin-top: 40px;
+      }
+      * {
+  /*       background-color: #8cc399; */
+      } 
+      .srvs_1 {
+        margin-top: 70px;
+      }
+      .srvs_2 {
+        margin-top: 150px;
+      }
+      .srvs_3 {
+        margin-top: 20px;
+      }
+    }
+    
+    @media only screen and (orientation: landscape) {
+      * {
+  /*       background-color: #ff00ab00; */
+      }
+    
+     .main:hover .service {
+        transform: translateY(-15px);
+      }
+      .main:hover .shodowOne {
+        transform: translateY(-8px);
+      }
+      .srvs_1 {
+        margin-top: 0px; 
+      }
+      .srvs_2 {
+        margin-top: 35px; 
+      }
+      .srvs_3 {
+        margin-top: -37px; 
+      }
+    
+    }
+    
+    /*********************Bien **********************************/
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      *{
+  /*       color:yellow;
+        background-color:yellow; */
+      }
+       .container_srv {
+        margin-top: 150px;
+      }
+      .srvs_1 {
+        margin-top: 0px; 
+      }
+      .srvs_2 {
+        margin-top: 190px; 
+      }
+      .srvs_3 {
+        margin-top: 60px; 
+      }
+      /******Images**/
+      
+       #div_img_impprte_big, #div_img_impprte_smol {
+        border: 2px solid #ffffff;
+        margin:0px;
+        padding: 0px; 
+        display: inline-block;
+      }
+       #div_img_impprte_smol { 
+        margin: 1px;
+        padding: 0px;   
+        width:49%; 
+      }
+      #img_img_impprte_big, #img_img_impprte_smol {
+        margin-bottom: 0px;
+        margin:0px;
+  /*       width: 144px; */
+        height: 100px; 
+      }
+      #li_img {  
+      margin:0px;
+    }
+  
+    .Btn_More
+    {
+      margin:15px auto 30px auto;
+    }
+  
+    /*Partenaire*/
+    #Div2_Logo_2020_2_7_,#Div_Logo_2020_2_7{
+     margin:0px 0px 0px -5px; 
+    }
+    }
+    
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+      *{
+  /*       color:#FF9800;
+        background-color:#FF9800; */
+      }  
+      .container_srv {
+        margin-top: 50px;
+      }
+      .srvs_1 {
+        margin-top: 0px; 
+      }
+      .srvs_2 {
+        margin-top: 35px; 
+      }
+      .srvs_3 {
+        margin-top: -35px; 
+      }
+        /******Images**/
+      
+       #div_img_impprte_big, #div_img_impprte_smol {
+        border: 2px solid #ffffff;
+        margin:0px;
+        padding: 0px; 
+        display: inline-block;
+      }
+       #div_img_impprte_smol { 
+        margin: 1px;
+        padding: 0px;   
+        width:49%; 
+      }
+      #img_img_impprte_big, #img_img_impprte_smol {
+        margin-bottom: 0px;
+        margin:0px;  
+        height: 160px;  
+        width:100%; 
+      }
+      #li_img {  
+      margin:0px;
+    }
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      *{
+  /*       color:#2196F3;
+        background-color:#2196F3; */
+      }
+      
+       .container_srv {
+        margin-top: 150px;
+      }
+      .srvs_1 {
+        margin-top: 0px; 
+      }
+      .srvs_2 {
+        margin-top: 20px; 
+      }
+      .srvs_3 {
+        margin-top: 0px; 
+      }
+        
+           /******Images**/
+      
+       #div_img_impprte_big, #div_img_impprte_smol {
+        border: 2px solid #ffffff;
+        margin:0px;
+        padding: 0px; 
+        display: inline-block;
+      }
+       #div_img_impprte_smol { 
+        margin: 1px;
+        padding: 0px;   
+        width:33%; 
+      }
+      #img_img_impprte_big, #img_img_impprte_smol {
+        margin-bottom: 0px;
+        margin:0px;  
+        height: 160px;  
+        width:100%; 
+      }
+      #li_img {  
+      margin:0px;
+    }
+      
+  
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        *{
+  /*       color:#0aff44;
+        background-color:#0aff44; */
+      }
+        .col-md-4{
+        min-width:auto;
+      }
+      
+       .container_srv {
+        margin-top: 150px;
+      }
+      .srvs_1 {
+        margin-top: 50px; 
+      }
+      .srvs_2 {
+        margin-top: 95px; 
+      }
+      .srvs_3 {
+        margin-top: -77px; 
+      }
+       /******Images**/
+      
+       #div_img_impprte_big, #div_img_impprte_smol {
+        border: 2px solid #ffffff;
+        margin:0px;
+        padding: 0px; 
+        display: inline-block;
+      }
+       #div_img_impprte_smol {  
+        padding: 0px; 
+        margin:2px; 
+        height:170px;  
+        width:24%;  
+      }
+      #img_img_impprte_big, #img_img_impprte_smol {
+        margin-bottom: 0px;
+        margin:2px;  
+        height: 160px;  
+        width:100%; 
+      }
+      #li_img {  
+      margin:0px;
+    }
+      
+  
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {   
+      *{
+    /*   color:#ff0aeb;
+      background-color:#ff0aeb; */
+    }
+    
+     .container_srv {
+      margin-top: 150px;
+    }
+    .srvs_1 {
+      margin-top: 0px; 
+    }
+    .srvs_2 {
+      margin-top: 20px; 
+    }
+    .srvs_3 {
+      margin-top: -105px; 
+    }
+/******Images**/
+      
+       #div_img_impprte_big, #div_img_impprte_smol {
+        border: 2px solid #ffffff;
+        margin:0px;
+        padding: 0px; 
+        display: inline-block;
+      }
+       #div_img_impprte_smol {  
+        padding: 0px; 
+        margin:2px; 
+        height:204px;  
+        width:400px;  
+      }
+      #img_img_impprte_big, #img_img_impprte_smol {
+        margin-bottom: 0px;
+        margin:5px;  
+        height: 190px;  
+        width:97%; 
+      }
+
+
+    }
